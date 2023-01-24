@@ -1,6 +1,8 @@
 # Face-Swapping
 ![alt text](https://github.com/htuannn/Face-Swapping/blob/f94eb91dd1be28bf02bd557fffed32cf1d2e918d/samples.png "Samples")
-Code for face swapping method preprocessing on image-to-image, video, realtime. 
+
+Code for face swapping method preprocessing on image-to-image, video frames, and realtime camera. 
+
 This app is written by Python3 and uses OpenCV, and MediaPipe Face Mesh API and image blending to swap the face of a person in destination image/video or seen by camera with a face of a person in a provided target image/video.
 
 ## How to use it
