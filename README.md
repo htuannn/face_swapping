@@ -15,6 +15,7 @@ pip install mediapipe
 
 ## Usage
 Firstly, change the path to your own destination and target image/video in **_Face_Swapping.py source code file. 
+
 For running the applications, run the following commands:
 - Image swapping: 
 ```
