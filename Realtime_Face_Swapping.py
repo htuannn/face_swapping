@@ -7,13 +7,13 @@ import ImageProcessing
 import glob
 
 def main():
-	path="Target/target.mp4"
+	target_path="Target/target.mp4"
 	#img_path="Target/Timothee.jpeg"
 	#target_imgs= [cv2.imread(img_path)]
 
 	#target_imgs= [cv2.imread(file) for file in glob.glob("Target/*.jpg")]
 
-	target_imgs = utils.extract_frame_from_video(path)
+	target_imgs = utils.extract_frame_from_video(target_path)
 
 	targets_xyz_landmark_points=[]
 	targets_landmark_points=[]
