@@ -7,13 +7,13 @@ import ImageProcessing
 import glob
 
 def main():
-	path="Target/target.mp4"
-	#img_path="Target/Timothee.jpeg"
-	#target_imgs= [cv2.imread(img_path)]
+	target_video_path="Target/target.mp4"
+	#target_img_path="Target/Timothee.jpeg"
+	#target_imgs= [cv2.imread(target_img_path)]
 
 	#target_imgs= [cv2.imread(file) for file in glob.glob("Target/*.jpg")]
 
-	target_imgs = utils.extract_frame_from_video(path)
+	target_imgs = utils.extract_frame_from_video(target_video_path)
 	targets_xyz_landmark_points=[]
 	targets_landmark_points=[]
 	for target_img in target_imgs:
@@ -28,8 +28,8 @@ def main():
 		target_facial_angle=utils.AngleOfDepression(utils.getCenter_xyz(target_left_iris)[0], utils.getCenter_xyz(target_right_iris)[0])
 		targets_facial_angle.append(target_facial_angle)
 
-	vid= cv2.VideoCapture("Destination/Mark-vid-input.mp4")
-	ret =1 
+	vid = cv2.VideoCapture("Destination/Mark-vid-input.mp4")
+	ret = 1 
 	#video write
 	frame_width = int(vid.get(3))
 	frame_height = int(vid.get(4))
