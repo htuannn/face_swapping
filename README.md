@@ -1,4 +1,4 @@
-# Face-Swapping
+# Face Swapping
 ![alt text](https://github.com/htuannn/Face-Swapping/blob/f94eb91dd1be28bf02bd557fffed32cf1d2e918d/samples.png "Samples")
 
 Code for face swapping method preprocessing on image-to-image, video frames, and realtime camera. 
