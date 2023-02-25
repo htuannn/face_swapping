@@ -32,6 +32,6 @@ python Video_Face_Swapping.py
 python Realtime_Face_Swapping.py
 ```
 
-## Releted
+## Related
 - [Face Swapping with OpenCV](https://pysource.com/2019/05/28/face-swapping-explained-in-8-steps-opencv-with-python/)
 - [MediaPipe Face Mesh](https://google.github.io/mediapipe/solutions/face_mesh.html)
